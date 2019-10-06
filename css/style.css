@@ -1,0 +1,143 @@
+body{
+    width: 100%;
+}
+.clr{
+    clear: both;
+}
+i{
+    font-size: 80px;
+    color: aquamarine;
+}
+.row{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    text-align: left;
+    
+}
+.row img{
+    width: 60%;
+    border-radius: 100%;
+    margin-left: 35%;
+}
+.center{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+header{
+    width: 100%;
+    align-content: center;
+    height: 50vh;
+    font-size: 20px;
+    text-align: center;
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.head-text{
+    font-size: 20px;
+    color: white;
+    text-align:left;
+}
+
+.head-text2 {
+    font-size: 14px;
+    color: white;
+    text-align: left
+}
+button{
+    background-color: rgb(84, 235, 172);
+    width: 80px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+button:hover{
+    color: black;
+    width: 85px;
+    height: 35px;
+    border: 2px solid white;
+}
+button:focus{
+    border-radius: 100%;
+    width: 60px;
+    height:60px;
+    transform: rotate(360deg);
+    transition: 1000ms;
+}
+section{
+    text-align: center;
+}
+.Section-head{
+    font-size: 18px;
+    font-style: bold;
+    color: black;
+}
+
+p{
+    font-size: 10px;
+    color: black;
+}
+.section-flow{
+    float: left;
+    flex-wrap: wrap;
+    width: 33.3%;
+    box-sizing: border-box;
+}
+.section-flow p{
+    justify-items: center;
+}
+.section-flow2{
+    float: left;
+    flex-wrap: wrap;
+    width: 50%;
+    box-sizing: border-box;
+    align-items: center;
+    
+}
+#Section2{
+    background-color:;
+}
+body img{
+    align-content: center;
+    border-radius: 8%;
+    border: 1px solid black;
+}
+
+footer{
+align-content: center;
+background-color: black;
+padding: 10px black;
+color: white;
+}
+.footer-head1{
+    font-size: 18px;
+    color: white;
+}
+.footer-head2{
+    font-size: 16px;
+    color: white;
+}
+footer p{
+    font-size: 10px;
+    color: white;
+}
+.footer-flow{
+    float: left;
+    flex-wrap: wrap;
+    width: 24.5%;
+    box-sizing: border-box;
+}
+.copyright{
+    text-align: center;
+}
+.alignment{
+    text-align: center;
+}
+.margin{
+    margin: 5%;
+}
